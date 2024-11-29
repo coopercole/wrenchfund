@@ -1,0 +1,156 @@
+/*https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529*/
+:root {
+	/* black text: #212529, grey background: #e9ecef */
+	--background: #ffffff;
+	--text: #000000;
+}
+html {
+  height: 100%;
+}
+body {
+    /*font-family: Arial, Helvetica, sans-serif; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background: var(--background);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h1 {
+    color: var(--text);
+    font-size: 6vh;
+    font-weight: bolder;
+  }
+  h2 {
+    color: var(--text);
+    font-size: 4vh;
+    font-weight: bolder;
+  }
+  h3 {
+    color: var(--text);
+    font-size: 3.05vh;
+  }
+  p {
+    color: var(--text);
+    font-size: 3vh;
+    padding: 0px;
+    text-align: left;
+    margin: 0;
+  }
+  li {
+    color: var(--text);
+    font-size: 3vh;
+    padding: 0px;
+    text-align: left;
+    margin: 0;
+  }
+
+.header {
+  /* top | right | bottom | left */
+  margin: 2.5% 5% 0% 5%;
+  text-align: center;
+}
+  
+/* Style the content */
+.content {
+  position: relative;
+  /* top | right | bottom | left */
+  margin: 0% 15% 0% 15%;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.content ul {
+  text-align: left;
+}
+
+footer {
+	/* top | right | bottom | left*/
+	margin: 0% 20% 0% 20%;
+	text-align: center;
+	padding-bottom: 20px
+}
+
+.content img {
+	  /* top | right | bottom | left */
+	margin: 0% 0% 0% 0%;
+	max-width:15%;  
+	height: auto;
+}
+
+img#platinum {
+	max-width: 25%;
+	height: auto;
+}
+
+img#jerry {
+	max-width: 35%;
+	height: auto;
+}
+
+img#maxiroof {
+	max-width: 25%;
+	height: auto;
+}
+
+img#casinoroyale {
+	max-width: 60%;
+	height: auto;
+}
+
+img#casinonight {
+	max-width: 50%;
+	height: auto;
+}
+
+img#lawyerup {
+	max-width: 35%;
+	height: auto;
+}
+
+img#wrenchfund_logo {
+  max-width: 20%;
+  height: auto;
+}
+
+a:hover {
+  /*background: radial-gradient(#858e96, #60696b);*/
+  background: #60696b;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  position: relative;
+  /* top | right | bottom | left */
+  margin: 0% 5% 5% 5%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  img#wrenchfund_logo {
+    max-width: 45%;
+    height: auto;
+  }
+
+}
+
+.item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.item img {
+  width: 80%;
+  height: auto;
+}
+
